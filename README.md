@@ -6,6 +6,8 @@ This project was made to help restructure a webpage so that it runs smoother and
 I combed through the HTML and CSS to determine if there were any unecessary elements that could be removed or rearrange similar elements.
 I learned that many elements that share the same function can be easily lumped together to reduce clutter and semantics are helpful in determining what is being displayed.
 
+## [Webpage](https://turtle2001.github.io/webpage-code-refactor/)
+![Site](horiseon-webpage.png)
 ## Code Snippet
 ```css
 /*sets image's max height*/
@@ -13,6 +15,7 @@ I learned that many elements that share the same function can be easily lumped t
     max-height: 200px;
 }
 ```
+
 ## Author Links
 [LinkedIn](https://www.linkedin.com/in/alexis-zaragoza-5baa51242/)
 [GitHub](https://github.com/turtle2001)
