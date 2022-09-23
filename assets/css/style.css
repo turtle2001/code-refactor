@@ -28,7 +28,7 @@ body {
     font-size: 20px;
 }
 
-.header nav ul li {
+.header nav li {
     display: inline-block;
     margin-left: 25px;
 }
