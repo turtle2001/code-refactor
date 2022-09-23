@@ -1,13 +1,16 @@
+/*Universal selector for entire webpage*/
 * {
     box-sizing: border-box;
     padding: 0;
     margin: 0;
 }
 
+/*White webpage background*/
 body {
     background-color: #d9dcd6;
 }
 
+/*Styleizes header*/
 .header {
     padding: 20px;
     font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
@@ -15,11 +18,13 @@ body {
     color: #ffffff;
 }
 
+/*website name*/
 .header h1 {
     display: inline-block;
     font-size: 48px;
 }
 
+/*moves elements to right side of page*/
 .header nav {
     padding-top: 15px;
     margin-right: 20px;
@@ -28,16 +33,19 @@ body {
     font-size: 20px;
 }
 
+/*makes aure elements are on the same line*/
 .header nav li {
     display: inline-block;
     margin-left: 25px;
 }
 
+/*text is white with no underline*/
 a {
     color: #ffffff;
     text-decoration: none;
 }
 
+/*displays central image*/
 .hero {
     height: 800px;
     width: 100%;
@@ -47,22 +55,40 @@ a {
     background-position: center;
 }
 
+/*styleizes each section*/
+.search-engine-optimization, .online-reputation-management, .social-media-marketing{
+    margin-bottom: 20px;
+    padding: 50px;
+    height: 300px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    background-color: #0072bb;
+    color: #ffffff;
+}
+
+/*sets image's max height*/
+.search-engine-optimization img, .online-reputation-management img, .social-media-marketing img {
+    max-height: 200px;
+}
+
+/*sets heading attributes*/
+.search-engine-optimization h2, .online-reputation-management h2, .social-media-marketing h2 {
+    margin-bottom: 20px;
+    font-size: 36px;
+}
+
+/*moves image to the left side of the section*/
 .float-left {
     float: left;
     margin-right: 25px;
 }
 
+/*moves image to the right side of the section*/
 .float-right {
     float: right;
     margin-left: 25px;
 }
 
-.content {
-    width: 75%;
-    display: inline-block;
-    margin-left: 20px;
-}
-
+/*styleizes benefits sidebar*/
 .benefits {
     margin-right: 20px;
     padding: 20px;
@@ -74,40 +100,33 @@ a {
     background-color: #2589bd;
 }
 
+/*where the text goes*/
+.content {
+    width: 75%;
+    display: inline-block;
+    margin-left: 20px;
+}
+
+/*sets text color and margin*/
 .benefit-lead, .benefit-brand, .benefit-cost {
     margin-bottom: 32px;
     color: #ffffff;
 }
 
+/*sets heading center*/
 .benefit-lead h3, .benefit-brand h3, .benefit-cost h3  {
     margin-bottom: 10px;
     text-align: center;
 }
 
+/*icon attributes*/
 .benefit-lead img, .benefit-brand img, .benefit-cost img {
     display: block;
     margin: 10px auto;
     max-width: 150px;
 }
 
-.search-engine-optimization, .online-reputation-management, .social-media-marketing{
-    margin-bottom: 20px;
-    padding: 50px;
-    height: 300px;
-    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
-    background-color: #0072bb;
-    color: #ffffff;
-}
-
-.search-engine-optimization img, .online-reputation-management img, .social-media-marketing img {
-    max-height: 200px;
-}
-
-.search-engine-optimization h2, .online-reputation-management h2, .social-media-marketing h2 {
-    margin-bottom: 20px;
-    font-size: 36px;
-}
-
+/*footer attributes*/
 .footer {
     padding: 30px;
     clear: both;
